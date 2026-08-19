@@ -45,7 +45,7 @@ can die mid-write with a cryptic `OSError: [Errno 22] Invalid argument`.
 This node crops 1px off the edge only when needed, so it's a no-op for
 videos that were already fine.
 
-##Wiring it into your RTX-Upscaler-1080 workflow
+## Wiring it into your RTX-Upscaler-1080 workflow
 
 1. Delete the existing `VHS_LoadVideo` node (and `VHS_VideoInfo`, since
    this node reports frame_rate directly and VideoInfo isn't needed to
