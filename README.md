@@ -18,7 +18,7 @@ for a whole folder of videos.
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/<your-username>/ComfyUI-BatchVideoLoader.git
+git clone https://github.com/artttaku/ComfyUI-BatchVideoLoader
 ```
 
 **Or manually:** download this repo as a ZIP and extract it into
